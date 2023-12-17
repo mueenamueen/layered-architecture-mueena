@@ -21,9 +21,6 @@ public class ItemDTO implements Serializable {
         this.qtyOnHand = qtyOnHand;
     }
 
-    public ItemDTO(String code, String description, String unitPrice, String qtyOnHand) {
-    }
-
     public String getCode() {
         return code;
     }
